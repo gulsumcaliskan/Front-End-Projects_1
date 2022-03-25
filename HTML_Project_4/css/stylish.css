@@ -1,0 +1,40 @@
+body {
+    background-color: #CEAB93;
+}
+
+.nav-links {
+    list-style:lower-alpha
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav-links a {
+    margin-right: 15px;
+    color:darkslateblue;
+}
+
+header h1 {
+    text-align: center;
+    color:rgb(61, 15, 104);
+}
+
+header p {
+    text-align: center;
+    color:darkslategray
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #c5a28b;
+    color:darkmagenta
+}
