@@ -1,178 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Sound of Melody" />
+    <meta name="author" content="Gülsüm ÇALIŞKAN" />
+
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/icon.png"/>
+
+    <!-- CSS-->
     <link rel="stylesheet" href="css/stylish.css"/>
     <title>The Sound of Melody - Home</title>
 </head>
 <body>
 
+    <!-- Page Header -->
+
     <header>
-        <h1>Welcome to The Sound of Melody </h1>
+        <hr>
+        <hr>
+        <div>
+            <h1>Welcome to The Sound of Melody </h1>
         <p>A digital marketplace that you can find a unique and creative products.</p>
         <div align="center"> 
             <img src="https://media0.giphy.com/media/StF8grqNK8fOPstPLo/200w.webp?cid=ecf05e470xcyw57tx5ofn1ihshf4xv5kuc353wumq6mtyrio&rid=200w.webp&ct=s" alt="Welcome">
         </div>
+        </div>
     </header>
 
-    <header>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
+    <!-- Navigation Bar -->
 
-            <a href="products.html">Products</a>
-    
-            <a href="about-us.html">About Us</a>
- 
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <nav class="navbar fixed-top navbar-dark" style="background-color: #af9887">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand text-violet" href="#!">
+                <img src="img/icon.png" width="30" height="30" class="d-inline-block align-top">
+                <strong>The Sound of Melody</strong>
+            </a>
+            
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link link-info" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link link-info" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link link-info" href="about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link link-info" href="contact.html">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
 
     <hr>
 
     <h3>Categories</h3>
-        <ol>
-            <li><a href="#instruments">Instruments</a></li>
-            <li><a href="#smb">Sheet Music and Books</a></li>
-            <li><a href="#gifts">Gifts</a></li>
-            <li><a href="#accessories">Accessories</a></li>
-        <ol>
-    
+
+    <header class="bg-blue">
+        <div class="container">
+            <div class="row">
+                <nav class="nav nav-pills nav-fill">
+                    <div class="col"><a class="nav-item nav-link" href="#instruments">Instruments</a></div>
+                    <div class="col"><a class="nav-item nav-link" href="#smb">Sheet Music and Books</a></div>
+                    <div class="col"><a class="nav-item nav-link" href="#gifts">Gifts</a></div>
+                    <div class="col"><a class="nav-item nav-link" href="#accessories">Accessories</a></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <hr>
 
-    <h2><i>Instruments</i></h2>
+    <article>
+        <div class="card-deck">
+                <h2><i>Instruments</i></h2>
         <a name="instruments"></a>
     <br>
-        <ol>
-            <li>Guitars and Strings</li>
-                <ul>
-                    <li>Guitars</li>
-                    <li>Violin</li>
-                    <li>Other Strings</li>
-                </ul>
-                <br>
-            <li>Percussion and Drums</li>
-                <ul>
-                    <li>Percussions</li>
-                    <li>Drums</li>
-                </ul>
-                <br>
-            <li>Wind Instruments</li>
-                <ul>
-                    <li>Flutes</li>
-                    <li>Saxophone</li>
-                    <li>Clarinet</li>
-                </ul>
-                <br>
-            <li>Piano</li>
-                <br>
-            <li>Folk Instruments</li>
-        </ol>
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Guitars and Strings</h5>
+                            <ul>
+                                <li>Guitars</li>
+                                <li>Violin</li>
+                                <li>Other Strings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Percussion and Drums</h5>
+                                <ul>
+                                    <li>Percussions</li>
+                                    <li>Drums</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Wind Instruments</h5>
+                            <ul>
+                                <li>Flutes</li>
+                                <li>Saxophone</li>
+                                <li>Clarinet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Piano</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Folk Instruments</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+        
         <br>
 
     <h2><i>Sheet Music and Books</i></h2>
         <a name="smb"></a>
         <br>
-        <ol>
-            <li>History, Style and Cultures</li>
-            <br>
-                <img src="https://www.musicshopeurope.com/product/image/medium/hl00119719_0.jpg" alt="Drum Book">
-                <p>The Roots of Rock Drumming | Price: 24.95£</p>
+            <h5 class="text-center">History, Style and Cultures</h5>
+                <section class="py-5">
+                    <div class="container px-4 px-lg-5 mt-5">
+                        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/hl00119719_0.jpg" alt="Drum Book">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <p class="fw-bolder">The Roots of Rock Drumming | Price: 24.95£</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                <br>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/schsem8209_0.jpg" alt="Jazz">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <p class="fw-bolder">Jazz | Price: 17.95£</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                <img src="https://www.musicshopeurope.com/product/image/medium/schsem8209_0.jpg" alt="Jazz">
-                <p>Jazz | Price: 17.95£</p>
-                
-                <br>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/hl00314826_0.jpg" alt="The sound of Music">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <p class="fw-bolder">The sound of Music | Price: 18.95£</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                <img src="https://www.musicshopeurope.com/product/image/medium/hl00314826_0.jpg" alt="The sound of Music">
-                <p>The sound of Music | Price: 18.95£</p>
-                
-                <br>
+                        </div>
+                    </div>
+                </section>
+            
+            <h5 class="text-center">Chords</h5>
+            <section class="py-5">
+                <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/hl00354996_0.jpg" alt="Disney Goes Classical">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">Disney Goes Classical | Price: 20.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <li>Chords</li>
-            <br>
-                <img src="https://www.musicshopeurope.com/product/image/medium/hl00354996_0.jpg" alt="Disney Goes Classical">
-                    <p>Disney Goes Classical | Price: 20.95£</p>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/ep73551_0.jpg" alt="Easy Piano">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">Christmas Carols For Easy Piano| Price: 5.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <br>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/hl00355701_0.jpg" alt="Top Hits">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">Top Hits of 2020 | Price: 17.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <img src="https://www.musicshopeurope.com/product/image/medium/ep73551_0.jpg" alt="Easy Piano">
-                    <p>Christmas Carols For Easy Piano| Price: 5.95£</p>
-                    
-                <br>
+                    </div>
+                </div>
+            </section>
 
-                <img src="https://www.musicshopeurope.com/product/image/medium/hl00355701_0.jpg" alt="Top Hits">
-                    <p>Top Hits of 2020 | Price: 17.95£</p>
-                    
-                <br>
+            <h5 class="text-center">Children's Books</h5>
+            <section class="py-5">
+                <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/kmp1501229_0.jpg" alt="All About A Baby">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">All About A Baby | Price: 18.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <li>Children's Books</li>
-            <br>
-                <img src="https://www.musicshopeurope.com/product/image/medium/kmp1501229_0.jpg" alt="All About A Baby">
-                <p>All About A Baby | Price: 18.95£</p>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/bobu00002820_0.jpg" alt="Toy">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">Bumba - Mijn Eerste Boekjes| Price: 9.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <br>
-
-                <img src="https://www.musicshopeurope.com/product/image/medium/bobu00002820_0.jpg" alt="Toy">
-                <p>Bumba - Mijn Eerste Boekjes| Price: 9.95£</p>
-                
-                <br>
-
-                <img src="https://www.musicshopeurope.com/product/image/medium/oup9780199384785_0.jpg" alt="Music Studio">
-                <p>Childrens Music Studio A Reggio - Inspired Approach | Price: 123.95£</p>
-                
-                <br>
-        </ol>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/oup9780199384785_0.jpg" alt="Music Studio">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <p class="fw-bolder">Childrens Music Studio A Reggio - Inspired Approach | Price: 123.95£</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
     <h2><i>Gifts</i></h2>
         <a name="gifts"></a>
 
-        <img src="https://www.musicshopeurope.com/product/image/medium/2029-14%20m_0.jpg" alt="Die Notentafel">    
-        <p>Die Notentafel | Price: 49.95£</p>
-        
-        <br>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img height="200" width="100" class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/2029-14%20m_0.jpg" alt="Die Notentafel"> 
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Die Notentafel | Price: 49.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <img src="https://www.musicshopeurope.com/product/image/medium/vwt0990l_0.jpg" alt="Bag">    
-        <p>Tote Bag Sheet Music White Long | Price: 3.95£</p>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/vwt0990l_0.jpg" alt="Bag">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Tote Bag Sheet Music White Long | Price: 3.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <br>
+                    <div class="col mb-5">
+                        <div class="card h-50">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/vws0064_0.jpg" alt="Music Box Mozart"> 
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Music Box Mozart Red | Price: 6.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <img src="https://www.musicshopeurope.com/product/image/medium/vws0064_0.jpg" alt="Music Box Mozart">    
-        <p>Music Box Mozart Red | Price: 6.95£</p>
+                    <div class="col mb-5">
+                        <div class="card h-50">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/fnk41140_0.jpg" alt="James Brown Figure">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Pop! Rocks James Brown Pop! Vinky Figure | Price: 14.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <br>
 
-        <img src="https://www.musicshopeurope.com/product/image/medium/fnk41140_0.jpg" alt="James Brown Figure">    
-        <p>Pop! Rocks James Brown Pop! Vinky Figure | Price: 14.95£</p>
-
+                </div>
+            </div>
+        </section>
 
     <h2><i>Accessories</i></h2>
         <a name="accessories"></a>
-            <img src="https://www.musicshopeurope.com/product/image/medium/alf00196_0.jpg" alt="Keyboard Chart">    
-            <p>Keyboard Chart | Pmalmer-Hughes Guitar | Price: 5.95£</p>
-            
-            <br>
 
-            <img src="https://www.musicshopeurope.com/product/image/medium/alf991762444481_0.jpg" alt="String">    
-            <p>PocketStrings 6 Fret | Price: 35.95£</p>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/alf00196_0.jpg" alt="Keyboard Chart">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Keyboard Chart | Pmalmer-Hughes Guitar | Price: 5.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <br>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/alf991762444481_0.jpg" alt="String">
+                                <div class="text-center">
+                                    <p class="fw-bolder">PocketStrings 6 Fret | Price: 35.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <img src="https://www.musicshopeurope.com/product/image/medium/mb20276_0.jpg" alt="Violin Wall Chart">    
-            <p>Violin Wall Chart | Price: 11.95£</p>
-    <hr>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://www.musicshopeurope.com/product/image/medium/mb20276_0.jpg" alt="Violin Wall Chart">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p class="fw-bolder">Violin Wall Chart | Price: 11.95£</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about-us.html"></a>About Us</li>
-                <li><a href="contact.html"></a>Contact</li>
-            </ul>
+    <footer class="container mt-2">
+        <nav class="navbar navbar fixed-bottom nav-links justify-content-center">
+            <div class="mt-4 p-2 bg-violet text-white rounded" style="text-align: center;">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </footer>
 
