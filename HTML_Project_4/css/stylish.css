@@ -2,39 +2,33 @@ body {
     background-color: #CEAB93;
 }
 
-.nav-links {
-    list-style:lower-alpha
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    justify-content: center;
-}
-
 .nav-links a {
     margin-right: 15px;
-    color:darkslateblue;
+    color:rgb(22, 18, 48);
 }
 
 header h1 {
     text-align: center;
-    color:rgb(61, 15, 104);
+    color:#5f4f44;
 }
 
 header p {
     text-align: center;
-    color:darkslategray
+    color:#573e2d
 }
 
 h3 {
     text-align: center;
+    color: #5e524a;
 }
 
 h2 {
     text-align: center;
+    color: #5e524a;
 }
 
 footer {
     text-align: center;
     background-color: #c5a28b;
-    color:darkmagenta
+    color:rgb(167, 116, 167)
 }
