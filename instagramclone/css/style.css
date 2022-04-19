@@ -1,0 +1,91 @@
+body {
+  padding: 65px; 
+  background: #FAFAFA;
+}
+
+nav {
+  height: 54px;
+  background: white;
+}
+
+.logo {
+  margin-left: 95px;
+}
+
+._8-yf5 {
+  margin-left: 345px;
+}
+
+._8-yf56 {
+  margin-left: 319px;
+}
+
+._8-yf57 {
+  margin-left: 335px;
+}
+
+#sticky-sidebar {
+  position: fixed;
+/*  border: none;*/
+}
+
+.card {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.card-footer {
+  background-color: white;
+
+}
+
+
+::placeholder{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
